@@ -1,0 +1,26 @@
+{
+  "name": "nezuko-dark-theme",
+  "displayName": "Nezuko Dark Theme",
+  "description": "Theme inspired by the demon slayer character Nezuko!",
+  "version": "0.0.1",
+  "publisher": "bamboojelly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alliisonlowe/Nezuko-VScode-Theme"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nezuko Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nezuko Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
